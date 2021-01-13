@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SEChat</string>
+    <string name="login_edittext_hint">آدرس</string>
+    <string name="connect_button_text">اتصال</string>
+    <string name="room_creation_name_hint">نام گفتگو</string>
+    <string name="room_creation_button_text">ایجاد</string>
+</resources>
