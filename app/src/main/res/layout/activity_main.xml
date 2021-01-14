@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activities.MainActivity"
+    tools:context=".activities.MainActivity"
     android:background="@color/white"
     android:layoutDirection="rtl">
 
@@ -16,7 +16,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:text="SEChat"
+        android:text="@string/main_page_title"
         android:fontFamily="@font/ubuntu"
         android:textSize="30sp"/>
 
@@ -36,10 +36,10 @@
                 android:id="@+id/room_join_addr_edt"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="IP"
+                android:hint="@string/ip_txt_hint"
                 android:paddingHorizontal="15dp"
                 android:paddingVertical="5dp"
-                android:layout_marginLeft="90dp"
+                android:layout_marginEnd="90dp"
                 android:inputType="phone"
                 android:textSize="20sp"
                 android:fontFamily="@font/ubuntu"
@@ -54,11 +54,11 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginVertical="5dp"
-            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
             android:text="@string/connect_button_text"
             android:textSize="20sp"
             android:fontFamily="@font/iranyekan"
-            android:layout_gravity="left"
+            android:layout_gravity="end"
             android:background="@drawable/button_background"/>
     </FrameLayout>
 

@@ -1,4 +1,4 @@
-package ir.alizadeh.sechat.Models;
+package ir.alizadeh.sechat.models;
 
 public class MessageModel {
     private boolean self;

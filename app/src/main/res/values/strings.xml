@@ -4,4 +4,12 @@
     <string name="connect_button_text">اتصال</string>
     <string name="room_creation_name_hint">نام گفتگو</string>
     <string name="room_creation_button_text">ایجاد</string>
+    <string name="close_chat_room_fab_description">Close chat room</string>
+    <string name="send_message_fab_description">Send message</string>
+    <string name="chat_box_hint">تایپ کنید</string>
+    <string name="chat_room_title">گفتگو</string>
+    <string name="main_page_title">SEChat</string>
+    <string name="ip_txt_hint">IP</string>
+    <string name="dialog_txt">در حال اتصال</string>
+    <string name="dialog_btn_txt">انصراف</string>
 </resources>
